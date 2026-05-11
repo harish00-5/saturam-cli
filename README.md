@@ -127,10 +127,13 @@ Without this, the CLI defaults to `https://gitlab.com`. This is required for any
    
    **Option B: Interactive setup via `sat-cli init`**
    ```
-   ? Which AI providers do you want to configure? OpenAI
    ? OpenAI API key: sk-or-v1-xxxxxxxxxxxxxxxxxxxx
    ? OpenAI base URL (leave empty for default OpenAI API): https://openrouter.ai/api/v1
    ```
+   
+   **Note:** 
+   - If you are using the official OpenAI API, use: `https://api.openai.com/v1`
+   - If you are using OpenRouter, use: `https://openrouter.ai/api/v1`
 
 3. **Select any of the supported free models listed below**
 
